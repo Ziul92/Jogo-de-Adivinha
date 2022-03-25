@@ -1,0 +1,81 @@
+main {
+    display: flex;
+    justify-content: center;
+    margin: 5% 25%;
+    background-color: azure;
+    align-items: center;
+    flex-flow: column ;
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+
+.titulo {
+    font-size: 30px;
+    font-size: bold;
+    color: red;
+    padding: 10px 0 15px 0;
+}
+
+
+/* Input e Label */
+.box1 {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.box1 label {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.box1 input {
+    margin: 15px 0 15px 0;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 7px; 
+}
+
+
+
+/* Tentativas e Respostas */
+.box2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+#tentativa {
+    font-size: 20px;
+    padding: 0 0 15px;
+}
+
+#resposta {
+    font-size: 20px;
+    padding: 0 0 20px;
+}
+
+
+
+
+
+
+/* Botões */
+#botaoPlay{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 13px;
+    background-color: rosybrown;
+    margin: 0 0 15px 0;
+}
+
+#botaoReset {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 13px;
+    background-color: springgreen;
+    margin: 0 0 15px 0;
+    display: none;
+}
